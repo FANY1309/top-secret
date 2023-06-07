@@ -3,7 +3,8 @@
     margin: 0;
 }
 
-body{
+body {
+    color:black;
     height: 100vh;
     background: #584040;
     display:flex;
@@ -11,5 +12,19 @@ body{
 
 }
 .container {
-    
+    width: 920px;
+    height: 280px;
+    margin: 0 auto;
+    position: relative;
+    background-color: linear-gradient(#B7D6C7, #FFF2D1);
+}
+
+.cat {
+    width: 84px;
+    height: 84px;
+    position: absolute;
+    bottom: 22px;
+    left: 42px;
+    z-index: 2;
+    background: url() repeat-x 0px 0px;
 }
