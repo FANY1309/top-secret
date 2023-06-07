@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-body {
+body{
     color:black;
     height: 100vh;
     background: #584040;
@@ -11,7 +11,7 @@ body {
     align-items: center;
 
 }
-.container {
+.container{
     width: 920px;
     height: 280px;
     margin: 0 auto;
@@ -19,12 +19,33 @@ body {
     background-color: linear-gradient(#B7D6C7, #FFF2D1);
 }
 
-.cat {
+.cat{
     width: 84px;
     height: 84px;
     position: absolute;
     bottom: 22px;
     left: 42px;
     z-index: 2;
-    background: url() repeat-x 0px 0px;
+    background: url(GATO) repeat-x 0px 0px;
+}
+
+.floor{
+    width: 200%;
+    height: 42px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: url (SUELO) repeat-x 0px 0px;
+    background-size: 50% 42px;
+}
+
+.score{
+    width: 100px;
+    height: 30px;
+    position:absolte;
+    top:5px;
+    right: 15px;
+    z-index:10;
+    color: #D48872 ;
+    font-family: Verdana;
 }
