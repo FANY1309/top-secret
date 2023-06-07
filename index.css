@@ -39,10 +39,10 @@ body{
 
 @keyframes animationCat{
     from{
-        background-position-x: -84px;
+        background-position-x: 0px;
     }
     to{
-        background-position-x: -252px;
+        background-position-x: -286px;
     }
 }
 
