@@ -4,19 +4,17 @@
 }
 
 body{
-    color:black;
     height: 100vh;
     background: #584040;
     display:flex;
     align-items: center;
-
 }
 .container{
-    width: 920px;
-    height: 280px;
+    width: 1278px;
+    height: 718px;
     margin: 0 auto;
     position: relative;
-    background-color: linear-gradient(#B7D6C7, #FFF2D1);
+    background: linear-gradient(#B7D6C7, #FFF2D1);
 }
 
 .cat{
@@ -27,7 +25,7 @@ body{
     left: 42px;
     z-index: 2;
     background: url("img/animation-catu.png") repeat-x 0px 0px;
-    background-size: 336px 84px;
+    background-size: 286px 432px;
     background-position-x: 0;
 }
 
