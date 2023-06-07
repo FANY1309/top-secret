@@ -20,13 +20,15 @@ body{
 }
 
 .cat{
-    width: 84px;
-    height: 84px;
+    width: 286px;
+    height: 432px;
     position: absolute;
     bottom: 22px;
     left: 42px;
     z-index: 2;
-    background: url(GATO) repeat-x 0px 0px;
+    background: url("img/animation-catu.png") repeat-x 0px 0px;
+    background-size: 336px 84px;
+    background-position-x: 0;
 }
 
 .floor{
